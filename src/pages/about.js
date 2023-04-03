@@ -88,7 +88,7 @@ const AboutPage = () => {
             Po więcej informacji, serdecznie zapraszam na luźną rozmowę.
             <StyledLink to="/">Wybór kontaktu &#129122;</StyledLink>
           </StyledParagraph>
-          <StyledImage src="./static/Rectangle-46.png" />
+          <StyledImage src="../assets/static/Rectangle-46.png" />
         </StyledAbout>
       </MainWrapper>
     </MainTemplate>

@@ -1,6 +1,6 @@
 import React from "react";
-import MainTemplate from "../templates/MainTemplate";
 import styled from 'styled-components';
+import MainTemplate from "../templates/MainTemplate";
 import { MainWrapper } from "../components/MainWrapper/MainWrapper";
 import { StyledHeading } from '../components/StyledHeading/StyledHeading';
 import SkillsList from "../components/SkillsList/SkillsList";
@@ -24,21 +24,21 @@ const StyledParagraph = styled.p`
 const SkillsPage = () => {
   return (
     <>
-        <MainTemplate>
-          <title>Umiejętności | apdev.net.pl</title>
-          <MainWrapper>
-            <StyledHeading>
-              <span>
-                Umiejętności
-              </span>
-            </StyledHeading>
-            <StyledParagraph>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </StyledParagraph>
-            <SkillsList />
-            <OtherSkillsList />
-          </MainWrapper>
-        </MainTemplate>
+      <MainTemplate>
+        <title>Umiejętności | apdev.net.pl</title>
+        <MainWrapper>
+          <StyledHeading>
+            <span>
+              Umiejętności
+            </span>
+          </StyledHeading>
+          <StyledParagraph>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </StyledParagraph>
+          <SkillsList />
+          <OtherSkillsList />
+        </MainWrapper>
+      </MainTemplate>
     </>
   )
 };
