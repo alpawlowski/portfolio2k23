@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from 'styled-components';
 import { projects } from '../data/projects';
 import MainTemplate from "../templates/MainTemplate";
@@ -214,7 +214,70 @@ const StyledMoreProjects = styled.div`
   }
 `;
 
+const StyledBtnWrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  max-width: 100%;
+  overflow-x: auto;
+`;
+
+const StyledFilterBtn = styled.button`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.7rem 1.2rem;
+  background-color: ${({theme}) => theme.colors.footer_bg};
+  color: ${({theme}) => theme.colors.primary_text};
+  white-space: nowrap;
+  font-weight: bolder;
+  font-size: 1rem;
+  border: 1px solid ${({theme}) => theme.colors.footer_bg};
+  border-radius: 0.5rem;
+  cursor: pointer;
+  
+  &.active {
+    background-color: rgba(75, 108, 193, 0.4);
+  }
+
+  & > svg{
+    fill: ${({theme}) => theme.colors.primary_text};
+    height: 2rem;
+    width: auto;
+  }
+
+  @media (min-width: ${({theme}) => theme.media.none}) and (max-width: ${({theme}) => theme.media.portraitPhone}) {
+    width: 100%;
+  }
+`;
+
 const ProjectsPage = () => {
+
+  const all = 'all';
+  const [showProjects, setShowProjects] = useState(projects);
+  const [activeBtn, setActiveBtn] = useState(all);
+
+  const setType = (type) => {
+    if(type === all) {
+      setShowProjects(projects);
+      setActiveBtn(all);
+      return;
+    } 
+    setShowProjects(projects.filter((proj) => proj.type === type));
+    setActiveBtn(type);
+  };
+
+  const buttons = [
+    { name: "Wszystkie", value: "all" },
+    { name: "Komercyjne", value: "commercial" },
+    { name: "Osobiste", value: "personal" },
+    { name: "W trakcie implementacji", value: "inprogress" },
+  ];
+
   return (
     <MainTemplate>
       <title>Projekty | apdev.net.pl</title>
@@ -224,10 +287,19 @@ const ProjectsPage = () => {
             Moje projekty
           </span>
         </StyledHeading>
-        {projects.map((project, i) => {
+
+        <StyledBtnWrapper>
+          {buttons.map(({name, value}) => (
+            <StyledFilterBtn type="button" value={value} key={value} onClick={() => {setType(value);}} className={activeBtn === value ? 'active': null} >
+              {name}
+            </StyledFilterBtn>
+          ))}
+        </StyledBtnWrapper>
+
+        {showProjects.map((project, i) => {
           return (
-            <StyledProjectDiv key={i} data-project={project.type} id={project.id} >
-              <img src={project.img} alt="" />
+            <StyledProjectDiv key={i} data-project={project.type_name} id={project.id} >
+              <img src={`/projects/${project.img}`} alt="" />
               <StyledDivText>
                 <h2>{project.name}</h2>
                 <p>{project.desc}</p>
@@ -236,7 +308,7 @@ const ProjectsPage = () => {
                 {project.technologies.map((technology, i) => {
                   return (
                     <div data-tooltip={technology.name} key={i}>
-                      <img src={`./static/skills/${technology.img}`} alt="" />
+                      <img src={`/skills/${technology.img}`} alt="" />
                     </div>
                   );
                 })}
