@@ -63,7 +63,7 @@ const StyledImage = styled.img`
 const AboutPage = () => {
   return (
     <MainTemplate>
-      <title>O mnie | apdev.site</title>
+      <title>O mnie | apdev.net.pl</title>
       <MainWrapper>
         <StyledHeading>
           <span>
@@ -88,7 +88,7 @@ const AboutPage = () => {
             Po więcej informacji, serdecznie zapraszam na luźną rozmowę.
             <StyledLink to="/">Wybór kontaktu &#129122;</StyledLink>
           </StyledParagraph>
-          <StyledImage src="../assets/static/Rectangle-46.png" />
+          <StyledImage src="/Rectangle-46.png" />
         </StyledAbout>
       </MainWrapper>
     </MainTemplate>

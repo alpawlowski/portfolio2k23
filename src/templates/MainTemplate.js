@@ -6,8 +6,12 @@ import { Container } from '../components/Container/Container';
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 
+const fontStyles = {
+  // fontFamily: "sans-serif, Montserrat",
+}
+
 const MainTemplate = ({children}) => (
-  <ThemeProvider theme={theme}>
+  <ThemeProvider theme={theme} style={fontStyles}>
     <GlobalStyle />
     <Header />
       <Container>

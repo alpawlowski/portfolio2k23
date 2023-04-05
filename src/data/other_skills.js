@@ -5,6 +5,10 @@ export const other_skills = [
     category: `Zaawansowane podstawy`,
     technologies: [
       {
+        "name": 'TypeScript',
+        "img": 'typescript.svg',
+      },
+      {
         "name": 'Gatsby.js',
         "img": 'gatsby.svg',
       },
@@ -26,8 +30,8 @@ export const other_skills = [
     category: 'Narzędzia i dodatkowe technologie',
     technologies: [
       {
-        "name": 'GitHub',
-        "img": 'github.svg',
+        "name": 'Git',
+        "img": 'git.svg',
       },
       {
         "name": 'Figma',

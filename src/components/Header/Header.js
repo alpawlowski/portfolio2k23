@@ -8,8 +8,7 @@ const Header = () => (
     <StyledHeader>
       <StyledLink to="/">
         <Logo>
-          {/* <img src="./static/apdev-logo.png" /> */}
-          apdev.net.pl
+          <img src="/apdev-logo.png" />
         </Logo>
       </StyledLink>
       <Navigation />

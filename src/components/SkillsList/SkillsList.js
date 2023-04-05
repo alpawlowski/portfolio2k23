@@ -116,7 +116,7 @@ const SkillsList = () => (
             {skill.technologies.map((technology, i) => {
                 return (
                   <li>
-                    <img src={`./static/skills/${technology.img}`} />
+                    <img src={`/skills/${technology.img}`} />
                     <p>{technology.name}</p>
                   </li>
                 );
