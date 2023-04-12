@@ -25,7 +25,7 @@ const SkillsPage = () => {
   return (
     <>
       <MainTemplate>
-        <title>Umiejętności | apdev.net.pl</title>
+        <title>Umiejętności | apdev.website</title>
         <MainWrapper>
           <StyledHeading>
             <span>
@@ -33,7 +33,18 @@ const SkillsPage = () => {
             </span>
           </StyledHeading>
           <StyledParagraph>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Swoją przygodę z programowaniem rozpocząłem w 2018 roku poprzez naukę HTML, CSS oraz biblioteki Bootstrap. 
+          Wkrótce potem poznałem podstawy języka PHP, wraz z frameworkiem Laravel oraz systemem baz danych MySQL.
+          <br /><br />
+          Około roku 2020 poznałem język programowania JavaScript, w którym postanowiłem "zostać na dłużej".
+          <br /><br />
+          W połowie 2021 roku rozpocząłem naukę środowiska Node.js wraz z frameworkiem Express.js oraz systemem szablonów EJS (Embedded JavaScript), a także systemem nierelacyjnych baz danych MongoDB wraz z biblioteką Mongoose.
+          <br /><br />
+          W roku 2022 podjąłem decyzję o pogłębieniu swoich umiejętności w obszarze front-endu poprzez naukę biblioteki React.js oraz frameworka Gatsby.js.
+          <br /><br />
+          Aktualnie skupiam się na rozwoju swoich kompetencji w dziedzinie technologii javascriptowych, zarówno w zakresie frontendu (Vanilla JS, TypeScript, React.js), jak i backendu (Node.js, Express.js, MongoDB).
+          <br /><br />
+          W przyszłości zamierzam poznać m.in. Next.js, React Native oraz bibliotekę three.js.
           </StyledParagraph>
           <SkillsList />
           <OtherSkillsList />

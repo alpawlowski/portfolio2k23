@@ -4,6 +4,7 @@ import { projects } from '../data/projects';
 import MainTemplate from "../templates/MainTemplate";
 import { MainWrapper } from "../components/MainWrapper/MainWrapper";
 import { StyledHeading } from '../components/StyledHeading/StyledHeading';
+import { StyledParagraph } from "../components/StyledParagraph/StyledParagraph";
 
 const StyledProjectDiv = styled.div`
   & {
@@ -280,14 +281,16 @@ const ProjectsPage = () => {
 
   return (
     <MainTemplate>
-      <title>Projekty | apdev.net.pl</title>
+      <title>Projekty | apdev.website</title>
       <MainWrapper>
         <StyledHeading>
           <span>
             Moje projekty
           </span>
         </StyledHeading>
-
+        <StyledParagraph>
+          Wybrane projekty, wykonane w przeszłości lub obecnie w trakcie implementacji.
+        </StyledParagraph>
         <StyledBtnWrapper>
           {buttons.map(({name, value}) => (
             <StyledFilterBtn type="button" value={value} key={value} onClick={() => {setType(value);}} className={activeBtn === value ? 'active': null} >

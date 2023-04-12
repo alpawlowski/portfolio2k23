@@ -160,7 +160,7 @@ const HomePage = () => {
         ) : (
           <MainWrapper>
             <MainTemplate>
-              <title>Strona główna | apdev.net.pl</title>
+              <title>Strona główna | apdev.website</title>
               <StyledHeading>
                 <StyledHello>Cześć, jestem Albert</StyledHello> <br />
                 Tworzę aplikacje oraz strony internetowe

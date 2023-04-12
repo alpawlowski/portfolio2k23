@@ -5,13 +5,10 @@ import GlobalStyle from "../assets/styles/GlobalStyle";
 import { Container } from '../components/Container/Container';
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
-
-const fontStyles = {
-  // fontFamily: "sans-serif, Montserrat",
-}
+import siteMetadata from '../../gatsby-config';
 
 const MainTemplate = ({children}) => (
-  <ThemeProvider theme={theme} style={fontStyles}>
+  <ThemeProvider theme={theme}>
     <GlobalStyle />
     <Header />
       <Container>

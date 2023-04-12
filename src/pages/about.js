@@ -63,7 +63,7 @@ const StyledImage = styled.img`
 const AboutPage = () => {
   return (
     <MainTemplate>
-      <title>O mnie | apdev.net.pl</title>
+      <title>O mnie | apdev.website</title>
       <MainWrapper>
         <StyledHeading>
           <span>
@@ -72,21 +72,30 @@ const AboutPage = () => {
         </StyledHeading>
         <StyledAbout>
           <StyledParagraph>
-            Nazywam się Albert Pawłowski, tworzę aplikacje oraz strony internetowe.
+            Cześć, jestem Albert Pawłowski i zajmuję się tworzeniem aplikacji oraz stron internetowych.
             <br /><br />
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+            Jestem programistą, który pasjonuje się tworzeniem aplikacji internetowych. 
+            Obecnie koncentruję się na rozwoju swoich umiejętności w dziedzinie tworzenia aplikacji internetowych, zarówno po stronie front-endu, jak i back-endu.
+            <br /><br />
+            Moim celem zawodowym jest uzyskanie pełnej samodzielności jako Full-Stack Web Developer.
             <br /><br />
             <StyledHead>Doświadczenie</StyledHead>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              <br /><br />
+            Front-End Web Developer w firmie ASCO Systemy Informatyczne Sp. z o.o. Sp. k.
+            <br /><br />
+            Z sukcesem zrealizowałem kilka współprac komercyjnych, dotyczących zaprojektowania i stworzenia stron internetowych.
+            <br /><br />
+            Dodatkowo w ramach studiów informatycznych odbyłem praktyki w firmie SmartGrow Sp. z o.o., dla której wykonałem firmową stronę internetową.             
+            <StyledLink to="/projects#smartgrow"> Podgląd strony &#129122; </StyledLink> 
+            <br /><br />
             <StyledHead>Wykształcenie</StyledHead>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-            <br /><br />
+            W 2022 roku obroniłem tytuł inżyniera informatyki na Uniwersytecie Jana Kochanowskiego w Kielcach.            <br /><br />
             <StyledHead>Współpraca</StyledHead>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+            Jestem otwarty na oferty pracy w formie stacjonarnej lub hybrydowej, a także na rozwojową współpracę, która umożliwi mi pogłębiać swoją wiedzę oraz rozwijać się w obszarze web developmentu.
             <br /><br />
-            Po więcej informacji, serdecznie zapraszam na luźną rozmowę.
-            <StyledLink to="/">Wybór kontaktu &#129122;</StyledLink>
+            Lubię pracować zarówno z klientem, w zespole, jak i samodzielnie.
+            <br /><br />
+            Po więcej informacji, serdecznie zapraszam na luźną rozmowę.😀
+            <StyledLink  to="/contact">Wybór kontaktu &#129122;</StyledLink>
           </StyledParagraph>
           <StyledImage src="/Rectangle-46.png" />
         </StyledAbout>

@@ -1,8 +1,8 @@
 export const projects = [
   {
     name: 'Portfolio',
-    desc: 'Aplikacja internetowa typu PWA prezentująca moje porftolio. Właśnie się na niej znajdujesz 😉',
-    live: 'https://apdev.net.pl/',
+    desc: 'Aplikacja internetowa typu SPA prezentująca moje porftolio. Właśnie się na niej znajdujesz 😉',
+    live: '/',
     repo: 'https://github.com/alpawlowski/portfolio2k23',
     id: '',
     type_name: 'Projekt osobisty',
@@ -48,10 +48,6 @@ export const projects = [
       {
         "name": 'EJS',
         "img": 'ejs.svg',
-      },
-      {
-        "name": 'Bootstrap',
-        "img": 'bootstrap.svg',
       },
       {
         "name": 'JavaScript',
@@ -114,10 +110,6 @@ export const projects = [
         "img": 'ejs.svg',
       },
       {
-        "name": 'Bootstrap',
-        "img": 'bootstrap.svg',
-      },
-      {
         "name": 'JavaScript',
         "img": 'javascript.svg',
       },
@@ -149,10 +141,6 @@ export const projects = [
     type: 'inprogress',
     img: 'undraw_Building_blocks_re_5ahy.png',
     technologies: [
-      {
-        "name": 'Bootstrap',
-        "img": 'bootstrap.svg',
-      },
       {
         "name": 'JavaScript',
         "img": 'javascript.svg',

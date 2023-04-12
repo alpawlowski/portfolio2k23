@@ -3,8 +3,8 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `apdev.net.pl`,
-    siteUrl: `https://www.apdev.net.pl`,
+    title: `apdev.website`,
+    siteUrl: `https://www.apdev.website`,
     icon: 'src/assets/images/favicon.ico',
   },
   plugins: [
@@ -15,7 +15,7 @@ module.exports = {
         name: `Apdev`,
         short_name: 'apdev',
         start_url: `/`,
-        icon: `public/static/apdev-logo.png`,
+        icon: `public/apdev-logo.png`,
       },
     },
     {

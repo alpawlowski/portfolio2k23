@@ -79,7 +79,7 @@ const StyledCategory = styled.h3`
   }
       
   &:first-child {
-    margin: 5rem 0 1rem;
+    margin: 3rem 0 1rem;
   }
 
   ::before{
@@ -99,7 +99,7 @@ const StyledHead = styled.h2`
   &:first-child {
     color: ${({theme}) => theme.colors.color_blue};
     font-size: 2rem;
-    margin: 5rem 0 2rem;
+    margin: 5rem 0 0;
   }
 `;
 

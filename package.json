@@ -1,8 +1,8 @@
 {
-  "name": "apdev.net.pl",
+  "name": "apdev.website",
   "version": "1.0.0",
   "private": true,
-  "description": "apdev.net.pl",
+  "description": "apdev.website",
   "author": "AP_dev",
   "keywords": [
     "gatsby"
