@@ -15,7 +15,7 @@ module.exports = {
         name: `Apdev`,
         short_name: 'apdev',
         start_url: `/`,
-        icon: `public/apdev-logo.png`,
+        icon: `src/assets/images/apdev-logo.png`,
       },
     },
     {
