@@ -38,7 +38,7 @@ export const projects = [
   {
     name: 'LingvoLernado',
     desc: 'Aplikacja webowa umożliwiająca, za pomocą ćwiczeń, naukę słówek z języka angielskiego pochodzących z gotowych lekcji tematycznych lub dodanych przez użytkownika. ',
-    live: 'https://lingvolernado.herokuapp.com/',
+    live: 'https://lingvolernado.onrender.com/',
     repo: 'https://github.com/alpawlowski/lingvolernado',
     id: '',
     type_name: 'Projekt osobisty',
@@ -97,45 +97,9 @@ export const projects = [
   },
   {
     name: 'WebScrapper',
-    desc: 'Aplikacja webowa, scrapująca dane z Internetu i wyświetlająca je użytkownikowi. Będzie posiadała, możliwość wysyłanie e-maili powiadamiających użytkownika nt. zaobserwowanych produktów. ',
-    live: 'https://lingvolernado.herokuapp.com/',
-    repo: 'https://github.com/alpawlowski/lingvolernado',
-    id: '',
-    type_name: 'Implementacja w toku...',
-    type: 'inprogress',
-    img: 'undraw_Building_blocks_re_5ahy.png',
-    technologies: [
-      {
-        "name": 'EJS',
-        "img": 'ejs.svg',
-      },
-      {
-        "name": 'JavaScript',
-        "img": 'javascript.svg',
-      },
-      {
-        "name": 'Node.js',
-        "img": 'node.svg',
-      },
-      {
-        "name": 'Express.js',
-        "img": 'express.svg',
-      },
-      {
-        "name": 'MongoDB',
-        "img": 'mongodb.svg',
-      },
-      {
-        "name": 'Nodemailer',
-        "img": 'nodemailer.svg',
-      },      
-    ],
-  },
-  {
-    name: 'WebScrapper',
-    desc: 'Aplikacja webowa, scrapująca dane z Internetu i wyświetlająca je użytkownikowi. Będzie posiadała, możliwość wysyłanie e-maili powiadamiających użytkownika nt. zaobserwowanych produktów. ',
-    live: 'https://lingvolernado.herokuapp.com/',
-    repo: 'https://github.com/alpawlowski/lingvolernado',
+    desc: 'Aplikacja webowa, scrapująca dane z Internetu i wyświetlająca je użytkownikowi. Aplikacja będzie posiadała funkcjonalność wysyłania powiadomień e-mailowych dla użytkowników na temat obserwowanych produktów. ',
+    live: '/',
+    repo: '/',
     id: '',
     type_name: 'Implementacja w toku...',
     type: 'inprogress',
@@ -170,7 +134,7 @@ export const projects = [
   {
     name: 'BakeryApp',
     desc: 'Aplikacja webowa wspomagająca pracę piekarni, wykonana na zaliczenie przedmiotu "inżynieria oprogramowania" na studiach inżynierskich.',
-    live: 'https://my-bakery-app.herokuapp.com/',
+    live: 'https://my-bakery-app.onrender.com/',
     repo: 'https://github.com/alpawlowski/bakeryapp',
     id: '',
     type_name: 'Projekt osobisty',
