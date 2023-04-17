@@ -14,21 +14,32 @@ import { StyledHeading } from '../components/StyledHeading/StyledHeading';
     &::first-letter{
     color: ${({theme}) => theme.colors.color_blue};
     font-weight: bold;
-    font-size: 4rem;
+    font-size: 2rem;
     float: left;
-    line-height: 60px;
-    padding-right: 8px;
-    margin-top: 3px;
+    line-height: 1.5rem;
+    padding-right: 2px;
     }
 
     @media (min-width: ${({theme}) => theme.media.none}) and (max-width: ${({theme}) => theme.media.landscapePhone}) {
       width: 100%;
+      padding-right: 0;
+      font-size: 1.2rem;
+
+      &::first-letter{
+        font-size: 2rem;
+        line-height: 1rem;
+        padding-right: 0;
+      }
     };
   `;
 
   const StyledLink = styled(Link)`
     color: ${({theme}) => theme.colors.color_blue};
     margin: 0 0.5rem;
+
+    @media (min-width: ${({theme}) => theme.media.none}) and (max-width: ${({theme}) => theme.media.landscapePhone}) {
+      margin: 0;
+    };
   `;
 
   const StyledHead = styled.h3`
@@ -42,10 +53,13 @@ import { StyledHeading } from '../components/StyledHeading/StyledHeading';
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    margin: 3rem 0;
     /* background-color: #333B46; */
     width: 100%;
     padding: 2rem;
+
+    @media (min-width: ${({theme}) => theme.media.none}) and (max-width: ${({theme}) => theme.media.landscapePhone}) {
+      padding: 0;
+    };
   `;
 
 const StyledImage = styled.img`
@@ -72,7 +86,7 @@ const AboutPage = () => {
         </StyledHeading>
         <StyledAbout>
           <StyledParagraph>
-            Cześć, jestem Albert Pawłowski i zajmuję się tworzeniem aplikacji oraz stron internetowych.
+            Cześć, jestem Albert i zajmuję się tworzeniem aplikacji oraz stron internetowych.
             <br /><br />
             Jestem programistą, który pasjonuje się tworzeniem aplikacji internetowych. 
             Obecnie koncentruję się na rozwoju swoich umiejętności w dziedzinie tworzenia aplikacji internetowych, zarówno po stronie front-endu, jak i back-endu.
@@ -85,17 +99,17 @@ const AboutPage = () => {
             Z sukcesem zrealizowałem kilka współprac komercyjnych, dotyczących zaprojektowania i stworzenia stron internetowych.
             <br /><br />
             Dodatkowo w ramach studiów informatycznych odbyłem praktyki w firmie SmartGrow Sp. z o.o., dla której wykonałem firmową stronę internetową.             
-            <StyledLink to="/projects#smartgrow"> Podgląd strony &#129122; </StyledLink> 
+            <StyledLink to="/projects#smartgrow"> Podgląd strony ➡️</StyledLink> 
             <br /><br />
             <StyledHead>Wykształcenie</StyledHead>
-            W 2022 roku obroniłem tytuł inżyniera informatyki na Uniwersytecie Jana Kochanowskiego w Kielcach.            <br /><br />
+            W 2022 roku obroniłem tytuł inżyniera informatyki na Uniwersytecie Jana Kochanowskiego w Kielcach.<br /><br />
             <StyledHead>Współpraca</StyledHead>
             Jestem otwarty na oferty pracy w formie stacjonarnej lub hybrydowej, a także na rozwojową współpracę, która umożliwi mi pogłębiać swoją wiedzę oraz rozwijać się w obszarze web developmentu.
             <br /><br />
             Lubię pracować zarówno z klientem, w zespole, jak i samodzielnie.
             <br /><br />
-            Po więcej informacji, serdecznie zapraszam na luźną rozmowę.😀
-            <StyledLink  to="/contact">Wybór kontaktu &#129122;</StyledLink>
+            Po więcej informacji, serdecznie zapraszam na luźną rozmowę 😀
+            <StyledLink to="/contact">Wybór kontaktu ➡️</StyledLink>
           </StyledParagraph>
           <StyledImage src="/Rectangle-46.png" />
         </StyledAbout>

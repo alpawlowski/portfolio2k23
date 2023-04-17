@@ -6,7 +6,6 @@ import { StyledHeading } from '../components/StyledHeading/StyledHeading';
 import { StyledParagraph } from '../components/StyledParagraph/StyledParagraph';
 
 const ContactContent = styled.div`
-
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -14,6 +13,10 @@ const ContactContent = styled.div`
     justify-content: center;
     gap: 1.5rem;
     margin: 5rem 0;
+
+    @media (min-width: ${({theme}) => theme.media.none}) and (max-width: ${({theme}) => theme.media.portraitPhone}) {
+      margin: 0;
+    }
 `;
 
 const ContactElements = styled.div`
@@ -64,6 +67,7 @@ const StyledContactBtn = styled.a`
 
   @media (min-width: ${({theme}) => theme.media.none}) and (max-width: ${({theme}) => theme.media.portraitPhone}) {
     width: 100%;
+    justify-content: flex-start;
   }
 `;
 

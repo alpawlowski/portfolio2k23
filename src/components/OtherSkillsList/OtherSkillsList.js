@@ -61,7 +61,7 @@ const TechnologiesList = styled.ul`
     }
 
     @media (min-width: ${({theme}) => theme.media.none}) and (max-width: ${({theme}) => theme.media.landscapePhone}) {
-      justify-content: flex-start;
+      justify-content: center;
       gap: 2rem;
     }
   };
@@ -137,9 +137,11 @@ const StyledHead = styled.h2`
     color: ${({theme}) => theme.colors.color_blue};
     font-size: 2rem;
     margin-top: 2rem;
+    width: 100%;
     
     @media (min-width: ${({theme}) => theme.media.none}) and (max-width: ${({theme}) => theme.media.landscapePhone}) {
       padding: 1rem 0rem;
+      font-size: 1.5rem;
       align-items: center;
     }
   }

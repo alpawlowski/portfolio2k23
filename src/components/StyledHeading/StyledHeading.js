@@ -65,4 +65,8 @@ export const StyledHeading = styled.h1`
   /* margin-left: 20px; */
   background: rgba(0, 0, 0, 0) linear-gradient(270deg, rgb(34, 42, 53) 0%, rgb(75, 108, 193) 100%) repeat scroll 0% 0%;
 }
+
+@media (min-width: ${({theme}) => theme.media.none}) and (max-width: ${({theme}) => theme.media.portraitPhone}) {
+  font-size: 1.15rem;
+}
 `;

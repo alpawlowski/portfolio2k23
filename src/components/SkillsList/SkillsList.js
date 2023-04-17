@@ -10,6 +10,10 @@ const StyledSkills = styled.div`
     justify-content: center;
     width: 100%;
     margin-bottom: 4rem;
+
+    @media (min-width: ${({theme}) => theme.media.none}) and (max-width: ${({theme}) => theme.media.landscapePhone}) {
+      margin-bottom: 1rem;
+    }
   };
 `;
 
@@ -24,6 +28,11 @@ const TechnologiesList = styled.ul`
     gap: 1rem;
     margin: 1rem 0;
     
+    @media (min-width: ${({theme}) => theme.media.none}) and (max-width: ${({theme}) => theme.media.landscapePhone}) {
+      justify-content: center;
+      gap: 1.5rem;
+    }
+
     li {
       list-style-type: none;
       display: flex;

@@ -13,11 +13,10 @@ const StyledParagraph = styled.p`
   &::first-letter{
   color: ${({theme}) => theme.colors.color_blue};
   font-weight: bold;
-  font-size: 4rem;
+  font-size: 2rem;
   float: left;
-  line-height: 60px;
-  padding-right: 8px;
-  margin-top: 3px;
+  line-height: 1.5rem;
+  padding-right: 2px;
   }
 `;
 
