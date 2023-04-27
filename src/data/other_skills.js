@@ -54,11 +54,11 @@ export const other_skills = [
         "img": 'xampp.svg',
       },
       {
-        "name": 'WordPress',
+        "name": 'WP',
         "img": 'wordpress.svg',
       },
       {
-        "name": 'WooCommerce',
+        "name": 'Woo',
         "img": 'woo.svg',
       },
     ],
