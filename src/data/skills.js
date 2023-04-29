@@ -27,10 +27,6 @@ export const skills = [
         "name": 'React.js',
         "img": 'react.svg',
       },
-      {
-        "name": 'Vue.js',
-        "img": 'vue.svg',
-      },
     ],
   },
   {
