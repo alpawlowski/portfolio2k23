@@ -9,6 +9,10 @@ export const other_skills = [
         "img": 'typescript.svg',
       },
       {
+        "name": 'Vue.js',
+        "img": 'vue.svg',
+      },
+      {
         "name": 'Gatsby.js',
         "img": 'gatsby.svg',
       },
