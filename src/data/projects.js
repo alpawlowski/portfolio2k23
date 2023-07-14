@@ -41,7 +41,7 @@ export const projects = [
     live: 'https://lingvolernado.onrender.com/',
     repo: 'https://github.com/alpawlowski/lingvolernado',
     id: '',
-    type_name: 'Projekt osobisty',
+    type_name: 'Praca inżynierska',
     type: 'personal',
     img: 'lingvo.png',
     technologies: [
@@ -164,6 +164,42 @@ export const projects = [
       {
         "name": 'MySQL',
         "img": 'mysql.png',
+      },
+    ],
+  },
+  {
+    name: 'Bakery ERP System',
+    desc: 'Aplikacja webowa typu CRUD z trzema rodzajami kont, umożliwiająca zamawianie i zarządzanie zamówieniami oraz produktami.',
+    live: 'https://bakery-erp-system.onrender.com',
+    repo: '/',
+    id: '',
+    type_name: 'Implementacja w toku...',
+    type: 'inprogress',
+    img: 'bakeryapp.png',
+    technologies: [
+      {
+        "name": 'React.js',
+        "img": 'react.svg',
+      },
+      {
+        "name": 'TypeScript',
+        "img": 'typescript.svg',
+      },
+      {
+        "name": 'Styled Components',
+        "img": 'sc.svg',
+      },
+      {
+        "name": 'Node.js',
+        "img": 'node.svg',
+      },
+      {
+        "name": 'Express.js',
+        "img": 'express.svg',
+      },
+      {
+        "name": 'MongoDB',
+        "img": 'mongodb.svg',
       },
     ],
   },
