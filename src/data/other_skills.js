@@ -9,10 +9,6 @@ export const other_skills = [
         "img": 'typescript.svg',
       },
       {
-        "name": 'Vue.js',
-        "img": 'vue.svg',
-      },
-      {
         "name": 'Gatsby.js',
         "img": 'gatsby.svg',
       },
@@ -56,14 +52,6 @@ export const other_skills = [
       {
         "name": 'Xampp',
         "img": 'xampp.svg',
-      },
-      {
-        "name": 'WP',
-        "img": 'wordpress.svg',
-      },
-      {
-        "name": 'Woo',
-        "img": 'woo.svg',
       },
     ],
   },
