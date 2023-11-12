@@ -36,6 +36,34 @@ export const projects = [
     ],
   },
   {
+    name: 'LingvoCards',
+    desc: 'Aplikacja webowa typu SPA w stylu aplikacji “Anki” do tworzenia i nauki fiszek.',
+    live: 'https://lingvocards.onrender.com/',
+    repo: 'https://github.com/alpawlowski/lingvocards',
+    id: '',
+    type_name: 'Implementacja w toku...',
+    type: 'inprogress',
+    img: 'lingvocards.png',
+    technologies: [
+      {
+        "name": 'React.js',
+        "img": 'react.svg',
+      },
+      {
+        "name": 'TypeScript',
+        "img": 'typescript.svg',
+      },
+      {
+        "name": 'Styled Components',
+        "img": 'sc.svg',
+      },
+      {
+        "name": 'LocalStorage',
+        "img": 'javascript.svg',
+      },
+    ],
+  },
+  {
     name: 'LingvoLernado',
     desc: 'Aplikacja webowa umożliwiająca, za pomocą ćwiczeń, naukę słówek z języka angielskiego pochodzących z gotowych lekcji tematycznych lub dodanych przez użytkownika. ',
     live: 'https://lingvolernado.onrender.com/',
