@@ -24,6 +24,10 @@ export const other_skills = [
         "name": 'MySQL',
         "img": 'mysql.svg',
       },
+      {
+        "name": 'WordPress',
+        "img": 'wordpress.svg',
+      },
     ],
   },
   {
