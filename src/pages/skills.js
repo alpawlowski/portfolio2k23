@@ -37,9 +37,9 @@ const SkillsPage = () => {
           <br /><br />
           Około roku 2020 poznałem język programowania JavaScript, w którym postanowiłem "zostać na dłużej".
           <br /><br />
-          W połowie 2021 roku rozpocząłem naukę środowiska Node.js wraz z frameworkiem Express.js oraz systemem szablonów EJS (Embedded JavaScript), a także systemem nierelacyjnych baz danych MongoDB wraz z biblioteką Mongoose.
+          W drugiej połowie 2021 roku rozpocząłem naukę środowiska Node.js wraz z frameworkiem Express.js oraz systemem szablonów EJS (Embedded JavaScript), a także systemem nierelacyjnych baz danych MongoDB wraz z biblioteką Mongoose.
           <br /><br />
-          W roku 2022 podjąłem decyzję o pogłębieniu swoich umiejętności w obszarze front-endu poprzez naukę biblioteki React.js oraz frameworka Gatsby.js.
+          W roku 2022 podjąłem decyzję o pogłębieniu swoich umiejętności w obszarze front-endu poprzez naukę biblioteki React.js wraz z TypeScript oraz frameworka Gatsby.js. Dodatkowo poznałem system zarządzania treścią WordPress.
           <br /><br />
           Aktualnie skupiam się na rozwoju swoich kompetencji w dziedzinie technologii javascriptowych, zarówno w zakresie frontendu (Vanilla JS, TypeScript, React.js), jak i backendu (Node.js, Express.js, MongoDB).
           <br /><br />
